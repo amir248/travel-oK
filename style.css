@@ -65,6 +65,7 @@ section{
     flex-wrap: wrap;
     width:100%;
     max-width: 1462px;
+    margin:3%;
 }
 section > div{
     width:100%;
@@ -107,4 +108,8 @@ footer > div{
     justify-content: center;
     align-items: baseline;
     flex-direction: column;
+}
+article > section:nth-child(4) > h2:nth-child(1){
+    width:100%;
+    text-align:center;
 }
