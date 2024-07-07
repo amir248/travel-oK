@@ -54,6 +54,11 @@ header > div{
     width:100%;
     max-width: 700px;
 }
+.mainHeader > strong > a{
+    font-size: 4vh;
+    text-decoration: none;
+    color:brown
+}
 article{
     display:flex;
     justify-content: center;
