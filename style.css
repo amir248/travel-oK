@@ -50,6 +50,10 @@ header > div{
     color:white;
     text-shadow: 1px 1px black;
 }
+.mainHeader > h1{
+    width:100%;
+    max-width: 700px;
+}
 article{
     display:flex;
     justify-content: center;
