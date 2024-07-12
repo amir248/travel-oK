@@ -3,7 +3,7 @@ state.count=+0;
 document.querySelector('#photoGallaryOk').addEventListener('click',()=>{
     state.count++;
     // console.log(state.count);
-    if(state.count==44){
+    if(state.count==listPhoto.length){
         state.count=0;
     }else{
         document.querySelector('#photoGallaryOk').setAttribute('src',`${listPhoto[state.count]}`);
@@ -40,7 +40,6 @@ let listPhoto = ['img/tatiana/WhatsApp Image 2024-07-06 at 19.17.26.jpeg',
   'img/to/5647841354368.jpeg',
   'img/to/564785413215465.jpeg',
   'img/to/5648135468435.jpeg',
-  'img/to/648413132121313131313.jpeg',
   'img/to/5648413515684768.jpeg',
   'img/to/56846541654.jpeg',
   'img/to/5847813548543.jpeg',
@@ -52,3 +51,4 @@ let listPhoto = ['img/tatiana/WhatsApp Image 2024-07-06 at 19.17.26.jpeg',
   'img/WhatsApp Image 2024-07-06 at 16.28.52.jpeg',
   'img/Zmeinogorsk.jpg'
 ]
+//   'img/to/648413132121313131313.jpeg', this photo very big size
