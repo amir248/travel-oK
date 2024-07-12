@@ -149,3 +149,6 @@ article > section:nth-child(4) > h2:nth-child(1){
     width:100%;
     text-align:center;
 }
+#rus{
+    display:none;
+}
