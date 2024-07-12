@@ -145,6 +145,45 @@ footer > div{
     align-items: baseline;
     flex-direction: column;
 }
+footer > div:nth-child(1) > a:nth-child(2){
+    margin:3%;
+}
+footer > div:nth-child(1) > a:nth-child(1){
+    width:100%;
+    max-width:170px;
+    margin:3%;
+}
+body > footer:nth-child(2) > div:nth-child(2) > ul > li{
+    list-style-type:none;
+    width:107px;
+    margin:3%;
+}
+
+body > footer:nth-child(2) > div:nth-child(3) > ul > li{
+    list-style-type:none;
+    width:50px;
+    margin:3%;
+}
+
+body > footer:nth-child(2) > div > a{
+    color:white;
+    text-shadow:1px 1px black;
+    text-decoration:none;
+}
+/* body > footer:nth-child(2) > div:nth-child(2) > ul:nth-child(1) > li:nth-child(1) > a:nth-child(1) */
+body > footer:nth-child(2) > div:nth-child(2) ul > li > a{
+    color:white;
+    text-shadow:1px 1px black;
+    text-decoration:none;
+    margin:3%;
+}
+
+body > footer:nth-child(2) > div:nth-child(3) > ul > li > a{
+    color:white;
+    text-shadow:1px 1px black;
+    text-decoration:none;
+    margin:3%;
+}
 article > section:nth-child(4) > h2:nth-child(1){
     width:100%;
     text-align:center;
