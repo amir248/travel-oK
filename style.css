@@ -38,11 +38,27 @@ header > nav{
     background-color: rgba(10,10,10,0.3);
     width:100%;
     height:100vh;
-    /* max-width: 1760px; */
+    max-width: 1920px;
+    display:flex;
+    justify-content:center;
+    align-items:flex-start;
+}
+header > nav > ul{
+    width:100%;
+    max-width:1374px;
+    margin-left:3%;
 }
 header > nav > ul > li{
     display:inline-block;   
     margin-right:3%;
+}
+body > main > header > nav > ul > li > a{
+    color:white;
+    text-decoration:none;
+    text-shadow:1px 1px black;
+}
+body > main > header > nav > ul > li > a:hover{
+    color:bisque;
 }
 .mainHeader{
     width:100%;
@@ -190,4 +206,8 @@ article > section:nth-child(4) > h2:nth-child(1){
 }
 #rus{
     display:none;
+}
+
+footer > div:nth-child(1) > a:hover,body > footer:nth-child(2) > div:nth-child(2) ul > li > a:hover, body > footer:nth-child(2) > div:nth-child(3) > ul > li > a:hover{
+    color:bisque;
 }
