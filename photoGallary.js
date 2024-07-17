@@ -9,7 +9,7 @@ document.querySelector('#photoGallaryOk').addEventListener('click',()=>{
         document.querySelector('#photoGallaryOk').setAttribute('src',`${listPhoto[state.count]}`);
     }
 });
-let listPhoto = ['1459345.jpg','img/tatiana/WhatsApp Image 2024-07-06 at 19.17.26.jpeg',
+let listPhoto = ['img/1459345.jpg','img/tatiana/WhatsApp Image 2024-07-06 at 19.17.26.jpeg',
   'img/tatiana/WhatsApp Image 2024-07-06 at 19.20.10.jpeg',
   'img/tatiana/WhatsApp Image 2024-07-06 at 19.20.11.jpeg',
   'img/tatiana/WhatsApp Image 2024-07-06 at 19.20.41.jpeg',
